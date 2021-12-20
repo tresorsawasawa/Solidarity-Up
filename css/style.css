@@ -62,7 +62,7 @@ a {
 
 .about-container {
   height: 100vh;
-  padding: 150px 0 150px 0;
+  padding: 140px 0 150px 0;
   background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/bg-img.png);
   background-color: #dbdfdbec;
   background-repeat: no-repeat;
@@ -76,20 +76,25 @@ a {
 }
 
 .intro-msg {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .about-items h1 {
-  /* color: var(--seconderyColor); */
-  /* margin: 8px 0; */
+  margin: 8px 0;
   background-image: url(../images/font.jpg);
   background-size: cover;
   background-position: center center;
   -webkit-background-clip: text;
-  color: transparent;
   -webkit-text-fill-color: transparent;
   font-size: 70px;
   line-height: 60px;
   font-weight: 900;
   width: 100%;
 }
+
+.solidarity-msg {
+  padding: 8px 22px;
+  border: 3px solid rgba(255, 255, 240, 0.26);
+}
+

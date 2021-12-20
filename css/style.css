@@ -90,13 +90,18 @@ a {
 
 .solidarity-msg {
   padding: 8px 22px;
-  border: 3px solid rgba(255, 255, 240, 0.26);
+  border: 3px solid rgba(255, 255, 240, 0.5);
   margin-bottom: 32px;
 }
 
 .work-time {
   display: flex;
   flex-direction: column;
+}
+
+.program-items span {
+  width: 28%;
+  font-weight: 600;
 }
 
 .work-time span:first-child {
@@ -107,4 +112,56 @@ a {
 .work-time span:last-child {
   /* margin-bottom: 160px; */
   font-size: 24px;
+}
+
+/* ---- Proram section */
+
+#program {
+  background-image: url(../images/backgground2.png);
+}
+
+.program-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.program-container h2 {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-container h2::after {
+  content: "";
+  background-color: var(--col2);
+  height: 3px;
+  width: 60px;
+  padding: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.program-items {
+  height: 100%;
+  width: 95%;
+  box-sizing: content-box;
+  background-color: #acacac1f;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.program-items img {
+  width: 60px;
+}
+
+.program-items p {
+  width: 55%;
 }

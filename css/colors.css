@@ -5,6 +5,7 @@
   --col4: #272a31;
 }
 
+.partners-container,
 #header .socialMedia {
   background-color: var(--col1);
 }
@@ -31,6 +32,7 @@ header {
   color: var(--col2);
 }
 
+.partners-container h2,
 .button-container a,
 .program-container .heading,
 .program-items p,

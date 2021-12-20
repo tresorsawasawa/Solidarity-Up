@@ -21,4 +21,5 @@ teamMemberData.forEach((member) => {
                       <p>${member.work}></p>
                     </div>
                   `;
+  teamMemberData.appendChild('li');
 });

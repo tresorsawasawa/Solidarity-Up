@@ -177,11 +177,17 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .button-container .program-btn {
+  width: 100%;
   padding: 20px 0;
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 500;
+}
+
+.button-container .program-btn:hover {
+  color: #fff;
 }

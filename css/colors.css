@@ -9,7 +9,7 @@
   background-color: var(--col1);
 }
 
-.button-container {
+.button-container .program-btn {
   background-color: var(--col2);
 }
 

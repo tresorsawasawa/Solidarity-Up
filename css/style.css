@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
@@ -53,16 +53,9 @@ a {
   cursor: pointer;
 }
 
-/* #about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
 .about-container {
-  height: 100vh;
-  padding: 140px 0 150px 0;
+  height: 100%;
+  padding: 150px 0;
   background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/bg-img.png);
   background-color: #dbdfdbec;
   background-repeat: no-repeat;
@@ -78,10 +71,13 @@ a {
 .intro-msg {
   font-size: 24px;
   line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 32px;
 }
 
 .about-items h1 {
-  margin: 8px 0;
+  width: 100%;
+  margin-bottom: 32px;
   background-image: url(../images/font.jpg);
   background-size: cover;
   background-position: center center;
@@ -90,11 +86,25 @@ a {
   font-size: 70px;
   line-height: 60px;
   font-weight: 900;
-  width: 100%;
 }
 
 .solidarity-msg {
   padding: 8px 22px;
   border: 3px solid rgba(255, 255, 240, 0.26);
+  margin-bottom: 32px;
 }
 
+.work-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-time span:first-child {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.work-time span:last-child {
+  /* margin-bottom: 160px; */
+  font-size: 24px;
+}

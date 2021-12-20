@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-:root {
-  --col1: #272a31;
-  --col2: #ec5242;
-  --backgroundCol: #d3d3d3;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +18,78 @@ a {
   text-decoration: none;
 }
 
-/* .row-end {
-  width: 40%;
-  justify-content: end;
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.top-navbar-list {
+  display: none;
+}
+
+#header .socialMedia,
+.navlist li,
+.logo img,
+.closeIcon,
+.navlist {
+  display: none;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-items,
+.display-center .navbar {
+  width: 90%;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+/* #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 } */
+
+.about-container {
+  height: 100vh;
+  padding: 150px 0 150px 0;
+  background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/bg-img.png);
+  background-color: #dbdfdbec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-msg {
+  font-size: 20px;
+}
+
+.about-items h1 {
+  /* color: var(--seconderyColor); */
+  /* margin: 8px 0; */
+  background-image: url(../images/font.jpg);
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 900;
+  width: 100%;
+}

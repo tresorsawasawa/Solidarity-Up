@@ -9,9 +9,9 @@
   background-color: var(--col1);
 }
 
-/* .program-container .heading::after {
+.button-container {
   background-color: var(--col2);
-} */
+}
 
 header {
   background-color: var(--col3);
@@ -31,6 +31,7 @@ header {
   color: var(--col2);
 }
 
+.button-container a,
 .program-container .heading,
 .program-items p,
 .top-navbar-item a {

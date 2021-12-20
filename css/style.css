@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.hover-pointer {
+  cursor: pointer;
+}
+
 #header {
   width: 100%;
   position: fixed;
@@ -114,13 +118,14 @@ a {
   font-size: 24px;
 }
 
-/* ---- Proram section */
+/* ---- Program section */
 
 #program {
   background-image: url(../images/backgground2.png);
 }
 
 .program-container {
+  padding-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,4 +169,19 @@ a {
 
 .program-items p {
   width: 55%;
+}
+
+.button-container {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container .program-btn {
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
 }

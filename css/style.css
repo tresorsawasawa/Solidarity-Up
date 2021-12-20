@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
   --col1: #272a31;
   --col2: #ec5242;
   --backgroundCol: #d3d3d3;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: var(--col1);
+  background-color: var(--backgroundCol);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .row-end {
+  width: 40%;
+  justify-content: end;
+} */

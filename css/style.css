@@ -132,6 +132,7 @@ a {
   flex-direction: column;
 }
 
+.partners-container h2,
 .program-container h2 {
   font-size: 25px;
   font-weight: 900;
@@ -142,6 +143,7 @@ a {
   align-items: center;
 }
 
+.partners-container h2::after,
 .program-container h2::after {
   content: "";
   background-color: var(--col2);
@@ -190,4 +192,28 @@ a {
 
 .button-container .program-btn:hover {
   color: #fff;
+}
+
+/* --- Partners section --- */
+.partners-container {
+  height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partners-list {
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.partners-list li {
+  margin: 0 20px;
+  width: 100px;
+}
+
+.partners-list li img {
+  width: 100px;
 }

@@ -1,0 +1,18 @@
+:root {
+  --col1: #272a31;
+  --col2: #ec5242;
+  --col3: #d3d3d3;
+}
+
+#header .socialMedia {
+  background-color: var(--col1);
+}
+
+.about-items h1,
+.intro-msg {
+  color: var(--col2);
+}
+
+.top-navbar-item a {
+  color: var(--col3);
+}

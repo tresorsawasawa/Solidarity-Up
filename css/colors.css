@@ -2,21 +2,37 @@
   --col1: #272a31;
   --col2: #ec5242;
   --col3: #d3d3d3;
+  --col4: #272a31;
 }
 
 #header .socialMedia {
   background-color: var(--col1);
 }
 
+/* .program-container .heading::after {
+  background-color: var(--col2);
+} */
+
+header {
+  background-color: var(--col3);
+}
+
+#program {
+  background-color: var(--col4);
+}
+
 .work-time span {
   color: var(--col1);
 }
 
+.program-items span,
 .about-items h1,
 .intro-msg {
   color: var(--col2);
 }
 
+.program-container .heading,
+.program-items p,
 .top-navbar-item a {
   color: var(--col3);
 }

@@ -8,6 +8,10 @@
   background-color: var(--col1);
 }
 
+.work-time span {
+  color: var(--col1);
+}
+
 .about-items h1,
 .intro-msg {
   color: var(--col2);

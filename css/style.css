@@ -299,10 +299,17 @@ a {
   font-weight: 350;
 }
 
-.see-more .btn {
+.see-more {
+  width: 90%;
+}
+
+.btn {
+  display: inline;
+  justify-content: center;
   align-items: center;
   border: 1px solid var(--col1);
   border-radius: 0;
+  border-radius: 5px;
 }
 
 .see-more .btn:hover {

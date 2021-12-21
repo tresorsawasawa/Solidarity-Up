@@ -80,7 +80,7 @@ seeMore.addEventListener('click', () => {
                               </div>
                             </li> `;
       // seeMoreText.innerText = 'See More';
-      seeMore.innerHTML = '<span>Hide</span><span><i class="fa fa-chevron-up"></i></span>';
+      seeMore.innerHTML = '<span class="btn-detail">HIDE</span><span><i class="fa fa-chevron-up"></i></span>';
     });
     state = false;
   } else {
@@ -99,7 +99,7 @@ seeMore.addEventListener('click', () => {
                                 </div>
                               </li> `;
     });
-    seeMore.innerHTML = '<span>See More</span><span><i class="fa fa-chevron-down"></i></span>';
+    seeMore.innerHTML = '<span class="btn-detail">MORE</span><span><i class="fa fa-chevron-down"></i></span>';
     state = true;
   }
 });

@@ -3,6 +3,7 @@
   --col2: #ec5242;
   --col3: #d3d3d3;
   --col4: #272a31;
+  --col5: #fff;
 }
 
 .partners-container,
@@ -10,6 +11,7 @@
   background-color: var(--col1);
 }
 
+.see-more .btn:hover,
 .button-container .program-btn {
   background-color: var(--col2);
 }
@@ -22,10 +24,13 @@ header {
   background-color: var(--col4);
 }
 
+.btn-detail,
 .work-time span {
   color: var(--col1);
 }
 
+.card-info h3,
+.see-more .btn .show-more-icon,
 .program-items span,
 .about-items h1,
 .intro-msg {

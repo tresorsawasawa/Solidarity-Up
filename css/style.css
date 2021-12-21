@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
+:root {
+  --col1: #272a31;
+  --col2: #ec5242;
+  --col3: #d3d3d3;
+  --col4: #272a31;
+  --col5: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -132,6 +140,7 @@ a {
   flex-direction: column;
 }
 
+.team-container .team-heading,
 .partners-container h2,
 .program-container h2 {
   font-size: 25px;
@@ -143,6 +152,7 @@ a {
   align-items: center;
 }
 
+.team-container .team-heading::after,
 .partners-container h2::after,
 .program-container h2::after {
   content: "";
@@ -154,19 +164,24 @@ a {
   margin-top: 20px;
 }
 
+.program-list {
+  width: 95%;
+  padding: 0 !important;
+}
+
 .program-items {
   height: 100%;
-  width: 95%;
+  width: 100%;
   box-sizing: content-box;
   background-color: #acacac1f;
-  margin: 8px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .program-items img {
-  width: 60px;
+  width: 50px;
 }
 
 .program-items p {
@@ -191,7 +206,109 @@ a {
 }
 
 .button-container .program-btn:hover {
-  color: #fff;
+  color: var(--col5);
+}
+
+/* -----Team section---- */
+.team-container {
+  flex-direction: column;
+}
+
+.team-members {
+  width: 100%;
+  padding-left: 0;
+}
+
+.team-members .member {
+  width: 100%;
+  padding: 20px 5px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* .team-members .member:first-child,
+.team-members .member:nth-child(2) {
+  display: flex;
+}
+
+.show {
+  display: block;
+}
+
+.team-members .member.show {
+  display: flex;
+}
+
+.team-members .member:last-child {
+  margin-bottom: 0;
+} */
+
+.member .card-img {
+  position: relative;
+  height: 130px;
+  width: 130px;
+}
+
+.profile-img {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.bg-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -20px;
+  top: -15px;
+  z-index: -99;
+}
+
+.card-info {
+  width: 70%;
+}
+
+.card-info h2 {
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.card-info h3 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-info h3::after {
+  content: "";
+  height: 2px;
+  width: 50px;
+  margin: 15px 0 10px 0;
+  border-radius: 10px;
+  background-color: rgba(122, 122, 122, 0.767);
+}
+
+.card-info p {
+  font-size: 14px;
+  font-weight: 350;
+}
+
+.see-more .btn {
+  align-items: center;
+  border: 1px solid var(--col1);
+  border-radius: 0;
+}
+
+.see-more .btn:hover {
+  cursor: pointer;
+  color: var(--col5);
+  font-weight: 700;
 }
 
 /* --- Partners section --- */

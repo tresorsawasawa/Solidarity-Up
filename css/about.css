@@ -254,7 +254,7 @@
 
   .about-items .wid70 {
     border: 2px solid var(--col5);
-    width: 100% !important;
+    width: 85% !important;
     text-align: center;
     padding: 20px;
     background-color: #f1f1f1;
@@ -292,13 +292,18 @@
     align-items: center;
   }
 
-  /* .last-info {
-    padding: 0 !important;
-    margin: 0 auto;
-  } */
-
   .last-info .bottom-logo img {
     height: 100px;
     width: 120px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .about-items .wid70 {
+    border: 2px solid var(--col5);
+    width: 80% !important;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
   }
 }

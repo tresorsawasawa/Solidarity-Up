@@ -23,6 +23,15 @@ header {
   background-color: var(--col4);
 }
 
+.partners-container h2,
+.button-container a,
+.top-navbar-item a,
+.program-container .heading,
+.program-items p {
+  color: var(--col3);
+}
+
+.navlist li a,
 .btn-detail,
 .work-time span {
   color: var(--col1);
@@ -34,12 +43,4 @@ header {
 .about-items h1,
 .intro-msg {
   color: var(--col2);
-}
-
-.partners-container h2,
-.button-container a,
-.program-container .heading,
-.program-items p,
-.top-navbar-item a {
-  color: var(--col3);
 }

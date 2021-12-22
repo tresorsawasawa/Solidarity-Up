@@ -230,27 +230,3 @@
   font-size: 2.3rem;
   text-align: center;
 }
-
-/* --- Partners section --- */
-.partners-container {
-  height: 100vh;
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.partners-list {
-  padding: 50px 0;
-  flex-wrap: wrap;
-}
-
-.partners-list li {
-  margin: 0 20px;
-  width: 100px;
-}
-
-.partners-list li img {
-  width: 100px;
-}

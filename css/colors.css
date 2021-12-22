@@ -11,9 +11,9 @@
   background-color: var(--col1);
 }
 
-.button-container .program-btn {
+/* .button-container .program-btn {
   background-color: var(--col2);
-}
+} */
 
 header {
   background-color: var(--col3);
@@ -37,6 +37,8 @@ header {
   color: var(--col1);
 }
 
+.fa-chevron-down,
+.fa-chevron-up,
 .card-info h3,
 .see-more .btn .show-more-icon,
 .program-items span,

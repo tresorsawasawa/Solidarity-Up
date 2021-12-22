@@ -6,8 +6,8 @@
   --col5: #fff;
 }
 
-.partners-container,
-#header .socialMedia {
+.socialMedia,
+.partners-container {
   background-color: var(--col1);
 }
 

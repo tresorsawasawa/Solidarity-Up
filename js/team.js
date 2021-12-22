@@ -3,42 +3,42 @@ const teamMemberData = [
     id: 1,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
   {
     id: 2,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
   {
     id: 3,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
   {
     id: 4,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
   {
     id: 5,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
   {
     id: 6,
     names: 'Tresor Sawasawa',
     profilePicture: './images/profile1.JPG',
-    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci officia mollitia voluptatibus provident praesentium.',
+    about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     work: 'Bill Gates now focuses most of his time on philanthropy, running the Bill & Melinda Gates Foundation alongside his wife.',
   },
 ];
@@ -80,7 +80,7 @@ seeMore.addEventListener('click', () => {
                               </div>
                             </li> `;
       // seeMoreText.innerText = 'See More';
-      seeMore.innerHTML = '<span class="btn-detail">HIDE</span><span><i class="fa fa-chevron-up"></i></span>';
+      seeMore.innerHTML = '<span class="btn-detail">HIDE</span><span><i class="fa fa-chevron-up fa-2x mx-3"></i></span>';
     });
     state = false;
   } else {
@@ -99,7 +99,7 @@ seeMore.addEventListener('click', () => {
                                 </div>
                               </li> `;
     });
-    seeMore.innerHTML = '<span class="btn-detail">MORE</span><span><i class="fa fa-chevron-down"></i></span>';
+    seeMore.innerHTML = '<span class="btn-detail">MORE</span><span><i class="fa fa-chevron-down fa-2x mx-3"></i></span>';
     state = true;
   }
 });

@@ -197,8 +197,9 @@ a {
   width: 100%;
   padding: 20px 0;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+  background-color: var(--col2);
 }
 
 .button-container .program-btn:hover {
@@ -250,6 +251,8 @@ a {
 
 .card-info h2 {
   font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
   padding: 0;
   margin: 0;
 }
@@ -293,14 +296,13 @@ a {
 
 .see-more .btn:hover {
   cursor: pointer;
-  color: var(--col5);
   font-weight: 700;
 }
 
 /* --- Partners section --- */
 .partners-container {
-  height: 100vh;
-  padding-top: 40px;
+  height: 100%;
+  padding-top: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,7 +310,7 @@ a {
 }
 
 .partners-list {
-  padding: 50px 0;
+  padding: 40px 0;
   flex-wrap: wrap;
 }
 
@@ -404,6 +406,15 @@ a {
 
 .change-menu #hamburger {
   display: none;
+}
+
+.last-info .bottom-logo img {
+  height: 170px;
+  width: 170px;
+}
+
+.last-info p {
+  font-weight: 500;
 }
 
 /* Desktop version */
@@ -561,6 +572,22 @@ a {
     text-align: center;
     font-weight: 540;
   }
+
+  .button-container .program-btn {
+    padding: 0 !important;
+    width: initial;
+    background: none;
+    border-bottom: 2px solid var(--col3);
+    margin-bottom: 30px;
+  }
+
+  .team-members {
+    width: 90%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
 }
 
 @media only screen and (min-width: 991px) {
@@ -620,5 +647,17 @@ a {
     line-height: 18px;
     text-align: center;
     font-weight: 540;
+  }
+
+  .team-members {
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .see-more {
+    width: 80%;
   }
 }

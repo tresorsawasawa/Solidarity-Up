@@ -6,6 +6,7 @@
   --col5: #fff;
 }
 
+#footer,
 .socialMedia,
 .partners-container {
   background-color: var(--col1);
@@ -23,6 +24,7 @@ header {
   background-color: var(--col4);
 }
 
+.last-info p,
 .partners-container h2,
 .button-container a,
 .top-navbar-item a,
@@ -31,6 +33,7 @@ header {
   color: var(--col3);
 }
 
+.text-col p,
 .navlist li a,
 .btn-detail,
 .work-time span {

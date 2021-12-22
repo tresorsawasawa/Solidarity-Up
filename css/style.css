@@ -91,12 +91,13 @@ a {
   background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 70px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 40px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
-.w70,
+.wid70,
 .solidarity-msg {
   padding: 8px 22px;
   border: 3px solid rgba(255, 255, 240, 0.5);

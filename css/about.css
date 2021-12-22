@@ -15,56 +15,6 @@
   list-style: none;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  color: var(--col1);
-  background-color: var(--backgroundCol);
-}
-
-a {
-  text-decoration: none;
-}
-
-.hover-pointer {
-  cursor: pointer;
-}
-
-#header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-}
-
-.top-navbar-list {
-  display: none;
-}
-
-#header .socialMedia,
-.navlist li,
-.logo img,
-.closeIcon,
-.navlist {
-  display: none;
-}
-
-.display-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.about-items,
-.display-center .navbar {
-  width: 90%;
-}
-
-.hamburger {
-  cursor: pointer;
-}
-
 .about-container {
   height: 100%;
   padding: 150px 0;
@@ -118,6 +68,13 @@ a {
   flex-direction: column;
 }
 
+.flex-center-direction {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
 .program-items span:first-child {
   width: 80%;
   font-weight: 400;
@@ -154,13 +111,14 @@ a {
   margin: 48px auto;
   color: var(--col1);
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.past-actions h2::after,
 .soliidarity-prop h2::after {
   content: "";
   background-color: var(--col2);
@@ -191,18 +149,86 @@ a {
   padding: 20px 0;
 }
 
-.soliidarity-prop::after {
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: red;
-  margin: 50px 0;
-}
-
 .hr {
   margin-top: 0;
   margin-bottom: 50px;
   height: 2px !important;
+}
+
+.activity-detail {
+  max-width: 75%;
+  text-align: center;
+}
+
+.family-images-container {
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-actions {
+  flex-direction: column;
+}
+
+.past-actions h2 {
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: 40px auto;
+  color: var(--col1);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.family-images {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.family-img {
+  width: 80%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.family-img .fimg {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.family-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: var(--col2);
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+.content-title {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.3rem;
+  text-align: center;
 }
 
 /* --- Partners section --- */

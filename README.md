@@ -39,6 +39,10 @@ To get a local copy up and running follow these simple example steps.
 
 See the live by clicking [Live Demo Link](https://tresorsawasawa.github.io/Solidarity-Capstone-project/)
 
+## Video Desription
+
+Click [Here to watch the video](https://www.loom.com/share/cfaa17d5212f44419063db591c61805c)
+
 ## Authors
 
 👤 **Author**

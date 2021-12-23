@@ -6,7 +6,7 @@
 
 ## Here, are: 
 
-Mobile version | Desktop
+Mobile version | Desktop version
 ---------------------- | ------------------------------
 ![Mobile_screenshot](./images/Mobile.png) | ![DEsktop_screenshot](./images/Desktop.png)
 

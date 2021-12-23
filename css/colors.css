@@ -1,0 +1,47 @@
+:root {
+  --col1: #272a31;
+  --col2: #ec5242;
+  --col3: #d3d3d3;
+  --col4: #272a31;
+  --col5: #fff;
+}
+
+#footer,
+.socialMedia,
+.partners-container {
+  background-color: var(--col1);
+}
+
+header {
+  background-color: var(--col3);
+}
+
+#program {
+  background-color: var(--col4);
+}
+
+.last-info p,
+.partners-container h2,
+.button-container a,
+.top-navbar-item a,
+.program-container .heading,
+.program-items p {
+  color: var(--col3);
+}
+
+.text-col p,
+.navlist li a,
+.btn-detail,
+.work-time span {
+  color: var(--col1);
+}
+
+.fa-chevron-down,
+.fa-chevron-up,
+.card-info h3,
+.see-more .btn .show-more-icon,
+.program-items span,
+.about-items h1,
+.intro-msg {
+  color: var(--col2);
+}

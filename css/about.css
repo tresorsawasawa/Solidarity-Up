@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+:root {
+  --col1: #272a31;
+  --col2: #ec5242;
+  --col3: #d3d3d3;
+  --col4: #272a31;
+  --col5: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.about-container {
+  height: 100%;
+  padding: 150px 0;
+  background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/act2.jpg);
+  background-color: #dbdfdbec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-msg {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.about-items {
+  flex-direction: column;
+}
+
+.about-items h1 {
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.solidarity-msg {
+  font-size: 16px;
+  background-color: #f3efef;
+  padding: 8px 22px;
+  border: 3px solid rgba(255, 255, 240, 0.5);
+  margin-bottom: 32px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.work-time1 {
+  margin: 32px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center-direction {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.program-items span {
+  width: 80%;
+  font-weight: 400;
+}
+
+.work-time1 a {
+  margin-top: 1rem;
+  color: var(--col1);
+  font-weight: 800;
+  margin-bottom: 3rem;
+  padding: 0;
+  text-decoration-line: underline;
+  width: initial;
+}
+
+/* --- About solidarity--- */
+#about {
+  width: 100%;
+}
+
+.about-solidarity {
+  width: 100%;
+}
+
+.soliidarity-prop {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.soliidarity-prop h2 {
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: 48px auto;
+  color: var(--col1);
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-actions h2::after,
+.soliidarity-prop h2::after {
+  content: "";
+  background-color: var(--col2);
+  height: 3px;
+  width: 60px;
+  padding: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.soliidarity-prop p {
+  padding-left: 5% !important;
+}
+
+.solidarity-logo {
+  width: 100%;
+  border: 2px solid var(--col3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10% !important;
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+
+.solidarity-logo img {
+  height: 150px;
+  padding: 20px 0;
+}
+
+.hr {
+  margin-top: 0;
+  margin-bottom: 50px;
+  height: 2px !important;
+}
+
+.activity-detail {
+  max-width: 75%;
+  text-align: center;
+}
+
+.act-images-container {
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  flex-direction: column;
+}
+
+.past-actions h2 {
+  width: 70%;
+  text-align: center;
+  position: relative;
+  margin: 40px auto;
+  color: var(--col1);
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-images {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.activity-img {
+  width: 80%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.activity-img .fimg {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.activity-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: var(--col2);
+  opacity: 0.75;
+  mix-blend-mode: multiply;
+}
+
+.content-title {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.content-title h3 {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.content-title p {
+  line-height: 16px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-items .intro-msg {
+    display: none !important;
+  }
+
+  .about-items .wid70 {
+    border: 2px solid var(--col5);
+    width: 85% !important;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+
+  .about-solidarity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .soliidarity-prop {
+    max-width: 700px;
+  }
+
+  hr {
+    margin-top: 0;
+    margin-bottom: 50px;
+    height: 2px !important;
+    color: var(--col4);
+    width: 100%;
+  }
+
+  .solidarity-logo {
+    width: 80%;
+  }
+
+  .act-images-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .last-info .bottom-logo img {
+    height: 100px;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .about-items .wid70 {
+    border: 2px solid var(--col5);
+    width: 80% !important;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+}

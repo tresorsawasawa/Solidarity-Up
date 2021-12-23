@@ -1,3 +1,6 @@
+
+
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # # Solidarity Up !
@@ -6,11 +9,12 @@
 
 ## Here, are: 
 
-Mobile version | Desktop version
+Mobile version | Desktop
 ---------------------- | ------------------------------
 ![Mobile_screenshot](./images/Mobile.png) | ![DEsktop_screenshot](./images/Desktop.png)
 
 > Solidarity Up is a web page of simple facts that would be better to be practiced in the aim of making our world better. 
+
 > These are objectives of the project:
 - Make people aware of helping others
 - Remind everyone to understand their value in society

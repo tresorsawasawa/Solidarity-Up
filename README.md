@@ -13,7 +13,7 @@ Mobile version | Desktop
 ---------------------- | ------------------------------
 ![Mobile_screenshot](./images/Mobile.png) | ![DEsktop_screenshot](./images/Desktop.png)
 
-> Solidarity Up is a web page of simple facts that would be better to be practiced in the aim of making our world better. 
+> "Solidarity Up!" is a web page of simple facts which can be better to be practiced in our everyday life to make our world better. 
 
 > These are objectives of the project:
 - Make people aware of helping others
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-See the live by clicking [Live Demo Link](https://tresorsawasawa.github.io/Solidarity-Capstone-project/)
+See the live by clicking [Live Demo Link](https://tresorsawasawa.github.io/Solidarity-Up/)
 
 ## Video Desription
 

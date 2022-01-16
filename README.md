@@ -31,8 +31,8 @@ Mobile version | Desktop
 
 To get a local copy up and running follow these simple example steps.
 
-1. Clone the Repo or Download the Zip file or ``` https://github.com/tresorsawasawa/Solidarity-Capstone-project.git```.
-2. ``` cd /Solidarity-Capstone-project```
+1. Clone the Repo or Download the Zip file or ``` https://github.com/tresorsawasawa/Solidarity-Up.git```.
+2. ``` cd /Solidarity-Up```
 3. Open it with the live server
 
 ## Live Demo

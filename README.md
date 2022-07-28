@@ -7,18 +7,25 @@
 
 ## Description
 
+> "Solidarity Up!" is a web page of simple facts which can be better to be practiced in our everyday life to make our world better. 
+> These are objectives of the project:
+- Make people aware of helping others
+- Remind everyone to understand their value in society
+- Understand that you can help others regardless of the field
+
 ## Here, are: 
 
 Mobile version | Desktop
 ---------------------- | ------------------------------
 ![Mobile_screenshot](./images/Mobile.png) | ![DEsktop_screenshot](./images/Desktop.png)
 
-> "Solidarity Up!" is a web page of simple facts which can be better to be practiced in our everyday life to make our world better. 
+## Live Demo
 
-> These are objectives of the project:
-- Make people aware of helping others
-- Remind everyone to understand their value in society
-- Understand that you can help others regardless of the field
+See the live by clicking [Live Demo Link](https://tresorsawasawa.github.io/Solidarity-Up/)
+
+## Video Desription
+
+Click [Here to watch the video](https://www.loom.com/share/ff77b28de94849ef80f783d7f6466c71)
 
 ## Built With
 
@@ -29,23 +36,32 @@ Mobile version | Desktop
 
 ## Get Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps in your Teminal.
 
-1. Clone the Repo or Download the Zip file or ``` https://github.com/tresorsawasawa/Solidarity-Up.git```.
-2. ``` cd /Solidarity-Up```
+### Prerequisites
+- IDIE(e.g: VsCode, Sublim,...)
+- Git must be installed in your local computer
+
+1. Download the Zip file or Clone the Repo with: 
+```
+git clone https://github.com/tresorsawasawa/Solidarity-Up.git
+```
+2. To access the cloned directory, run:
+```
+cd /Solidarity-Up
+```
 3. Open it with the live server
 
-## Live Demo
+### Setup
 
-See the live by clicking [Live Demo Link](https://tresorsawasawa.github.io/Solidarity-Up/)
-
-## Video Desription
-
-Click [Here to watch the video](https://www.loom.com/share/ff77b28de94849ef80f783d7f6466c71)
+To install all the project's dependencies, run:
+```
+npm install
+```
 
 ## Authors
 
-👤 **Author**
+👤 **Tresor Sawasasawa**
 
 - GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
 - Twitter: [@tresorsawasawa](https://twitter.com/TresorSawasawa)
